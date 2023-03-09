@@ -82,3 +82,16 @@ int n,m;
     }
      printf("%d",temp);
 }
+{
+    int n,m;
+    printf("podaj liczby: ");
+    scanf("%d%d",&n,&m);
+    int dzielnik;
+    for(int i=1;i<n;i++)
+    {
+        if(n%i==0&&m%i==0)
+        {
+            dzielnik=i;
+        }
+    }
+     printf("%d",dzielnik);
